@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 
+## This first function sets the steps to construct and apply the
+## resolution desired to the respective matrix passed by the user...
 makeCacheMatrix <- function(x = matrix()) {
     # Set a null variable to receive tha inverse matrix...
     m <- NULL
@@ -26,6 +28,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 
+## This function take the matrix passed by user and apply the resolution
+## desired. In this case it was conducted a invertion of a matrix.
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
     m <- x$getmatrix()
